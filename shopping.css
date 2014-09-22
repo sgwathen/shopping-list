@@ -58,6 +58,10 @@ input {
 	margin-bottom: 20px;
 }
 
+input:focus {
+	outline: none !important;	
+}
+
 ::-webkit-input-placeholder {
    font-family: "calluna-sans", Helvetica, sans-serif;
 }
