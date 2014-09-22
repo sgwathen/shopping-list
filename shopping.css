@@ -98,15 +98,13 @@ input:focus {
 	border-radius: 3px;	
 }
 
-/*.remove {
-	width: 15px;
-	height: 15px;
-	background: url(images/remove.png) no-repeat;
+.remove {
+	width: 25px;
+	height: 3px;
 	position: relative;
-	float: right;
-	top: -17px;
-	right: -17px;
-}*/
+	top: -11px;
+	right: -476px;
+}
 
 p {
 	text-align: center;
