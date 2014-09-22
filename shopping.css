@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: rgb(220,220,220);
+	font-family: "calluna-sans", Helvetica, sans-serif;	
+}
+
+#container {
+	margin: 0px auto;
+	width: 625px;
+	height: auto;
+}
+
+#icon {
+	width: 160px;
+	height: 160px;
+	background: url(images/shoplogo.png) no-repeat;
+	margin: 30px auto 15px auto;
+	display: block;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	color: rgb(52, 73, 94);
+}
+
+#blist {
+	font-weight: bold;
+	color: rgb(242, 129, 36);
+}
+
+#list {
+	background-color: rgb(142, 158, 173);
+	width: 525px;
+	min-height: 105px;
+	margin: 15px auto 0px auto;
+	padding: 20px 42px 50px 42px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgb(180, 180, 180);
+}
+
+.add {
+	
+}
+
+input {
+	width: 500px;
+	height: 27px;
+	background: #fff url(images/add.png) no-repeat 99% 50%;
+	padding-right: 25px;
+	text-align: center;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 3px;
+	border-shadow: none;
+	box-shadow: none;
+	margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+	font-weight: light;	
+}
+
+.unchecked {
+	width: 475px;
+	min-height: 22px;
+	background:  url(images/uncheck.png) no-repeat 1% 50%;
+	background-color: rgb(210, 210, 210);
+	padding: 4px 25px 2px 25px;
+	margin-top: 7px;
+	border-radius: 3px;
+}
+
+.checked {
+	width: 475px;
+	min-height: 22px;
+	background:  url(images/check.png) no-repeat 1% 50%;
+	background-color: rgb(180, 180, 180);
+	padding: 4px 25px 2px 25px;
+	margin-top: 7px;
+	border-radius: 3px;	
+}
+
+.remove {
+	width: 15px;
+	height: 15px;
+	background: url(images/remove.png) no-repeat;
+	position: relative;
+	float: right;
+	top: -17px;
+	right: -17px;
+}
+
+p {
+	text-align: center;
+	font-size: 1.2em;
+	vertical-align: center;
+	font-weight: bold;
+}
+
