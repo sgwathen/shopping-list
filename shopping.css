@@ -45,9 +45,9 @@ h1 {
 }
 
 input {
-	width: 500px;
+	width: 464px;
 	height: 27px;
-	background: #fff url(images/add.png) no-repeat 99% 50%;
+	background: #fff;
 	padding-right: 25px;
 	text-align: center;
 	font-size: 1.2em;
@@ -56,6 +56,14 @@ input {
 	border-shadow: none;
 	box-shadow: none;
 	margin-bottom: 20px;
+}
+
+#submit {
+	width: 25px;
+	height: 29px;
+	position: relative;
+	float: right;
+	background: #fff url(images/add.png) no-repeat 50% 50%;	
 }
 
 input:focus {
@@ -78,20 +86,23 @@ input:focus {
    font-family: "calluna-sans", Helvetica, sans-serif;
 }
 
-.unchecked {
-	width: 475px;
+li {
+	width: 441px;
 	min-height: 24px;
-	background:  url(images/uncheck.png) no-repeat 1% 50%, url(images/remove.png) no-repeat 99% 50%;
+	background:  url(images/uncheck.png) no-repeat 1% 50%;
 	background-color: rgb(210, 210, 210);
 	padding: 4px 25px 2px 25px;
 	margin-top: 7px;
 	border-radius: 3px;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
 }
 
 .checked {
-	width: 475px;
+	width: 441px;
 	min-height: 24px;
-	background:  url(images/check.png) no-repeat 1% 50%, url(images/remove.png) no-repeat 99% 50%;;
+	background:  url(images/check.png) no-repeat 1% 50%;
 	background-color: rgb(180, 180, 180);
 	padding: 4px 25px 2px 25px;
 	margin-top: 7px;
@@ -99,17 +110,12 @@ input:focus {
 }
 
 .remove {
-	width: 25px;
-	height: 3px;
+	background: url(images/remove.png) no-repeat 50% 50%;
+	background-color: rgb(52, 73, 94);
+	width: 30px;
+	height: 30px;
 	position: relative;
-	top: -11px;
-	right: -476px;
+	float: right;
+	top: -30px;
+	border-radius: 3px;
 }
-
-p {
-	text-align: center;
-	font-size: 1.4em;
-	vertical-align: center;
-	font-weight: bold;
-}
-
