@@ -5,7 +5,7 @@ $(document).ready(function() {
 		if (item == "" || item.trim().length == 0) {
 			alert("Enter an item");
 		} else {
-			$('ul').append('<li>' + item + '</li><div class="remove"></div>');
+			$('ul').append('<li>' + item + '<div class="remove"></div></li>');
 			$('#add').val('');
 		}
 	})
@@ -22,7 +22,8 @@ $(document).on('click', 'li', function() {
 	$(this).toggleClass('checked');
 	})
 	.on('click', '.remove', function() {
-		$(this).prev('li').remove();
-		$(this).closest('.remove').remove();
+		$(this).closest('li').remove();
+		//$(this).prev('li').remove();
+		//$(this).closest('.remove').remove();
 	});
 
